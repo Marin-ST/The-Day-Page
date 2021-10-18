@@ -1,12 +1,16 @@
 
 body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  background-color: black; 
+  background-color: black;
+  color: #8df800; 
+}
+
+p{
+    gap: 5px;
 }
 
 .header{
     height: 60px;
-    color: #8df800;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,9 +20,9 @@ body {
 }
 
 .second-header{
-    color: #8df800;
     height: 20px;
     padding: 5px;
+    margin-bottom: 55px;
     font-size: 20px;
 }
 
