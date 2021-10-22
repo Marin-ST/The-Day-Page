@@ -13,17 +13,6 @@ body {
     to {background-position:-10000px 5000px;}
 }
 
-.text-next-to-pictures{
-    right: 350px;
-}
-
-p{
-    font-weight: lighter;
-    font-style: oblique;
-    padding-right: 650px;
-    margin-top: -10px;
-}
-
 ul{
     color: #8df800;
     list-style: none;
@@ -104,6 +93,13 @@ a{
     }
 }
 
+.text-next-to-calendar{
+        font-weight: lighter;
+        font-style: oblique;
+        padding-right: 650px;
+        margin-top: -10px;
+}
+
 .calendar-size{
     display: flex;
     border-radius: 15%;
@@ -136,6 +132,16 @@ a{
     display: flex;
     width: 250px;
     height: auto;
+}
+
+.text-next-to-pictures{
+    font-weight: lighter;
+    font-style: oblique;
+    display: flex;
+    top: 536px;
+    position: absolute;
+    padding-right: 350px;
+    padding-left: 550px;
 }
 
 
