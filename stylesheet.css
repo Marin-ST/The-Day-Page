@@ -13,6 +13,9 @@ body {
     to {background-position:-10000px 5000px;}
 }
 
+.text-next-to-pictures{
+    right: 350px;
+}
 
 p{
     font-weight: lighter;
@@ -134,6 +137,8 @@ a{
     width: 250px;
     height: auto;
 }
+
+
 
 
 
