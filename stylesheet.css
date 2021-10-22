@@ -1,0 +1,77 @@
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: black;
+  color: #8df800; 
+}
+
+p{
+    gap: 5px;
+    font-weight: lighter;
+    font-style: oblique;
+}
+
+.header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15px;
+    font-size: 52px;
+    font-weight: 900;
+}
+
+.second-header{
+    height: 20px;
+    padding: 5px;
+    margin-bottom: 105px;
+    font-size: 20px;
+    font-style: italic;
+    animation-name: Forever;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+@keyframes Forever {
+    from {color:#8df800;}
+    to {color: white;}
+    to {color: lightgrey;}
+    to {color: darkgrey;}
+    to {color: lightyellow;}
+    to {color: yellow;}
+    to {color: orange;}
+    to {color: red;}
+    to {color: brown;}
+}
+
+ul{
+    color: #8df800;
+    list-style: none;
+}
+
+.sidebar{
+    height: 100%;
+    width: 225px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgb(47, 49, 47);
+    padding-right: 5px;
+}
+
+.glow{
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from{
+        text-shadow: 0 0 0px #fff, 0 0 1px #fff, 0 0 2px #5ce600, 0 0 3px, #7eff06 0 0 4px;
+    }
+    to{
+        text-shadow: 0 0 3px #fff, 0 0 5px #ffffff, 0 0 6px #bbff4d, 0 0 7px, #7eff06 0 0 8px
+    }
+}
+
+
