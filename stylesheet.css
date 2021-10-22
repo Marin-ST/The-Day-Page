@@ -6,7 +6,20 @@ body {
 }
 
 p{
-    gap: 5px;
+    font-weight: lighter;
+    font-style: oblique;
+    padding-right: 650px;
+    margin-top: -10px;
+}
+
+ul{
+    color: #8df800;
+    list-style: none;
+}
+
+a{
+    color: #8df800;
+    text-decoration: none;
     font-weight: lighter;
     font-style: oblique;
 }
@@ -24,29 +37,27 @@ p{
 .second-header{
     height: 20px;
     padding: 5px;
-    margin-bottom: 105px;
+    margin-bottom: 65px;
     font-size: 20px;
     font-style: italic;
     animation-name: Forever;
     animation-duration: 15s;
     animation-iteration-count: infinite;
+    background: none repeat scroll;
+    text-shadow: 0 -1px 1px #666666, 0 1px 1px #FFFFFF;
 }
 @keyframes Forever {
     from {color:#8df800;}
-    to {color: white;}
-    to {color: lightgrey;}
-    to {color: darkgrey;}
-    to {color: lightyellow;}
+    to {color: rgb(173, 209, 73);}
+    to {color: rgb(158, 241, 23);}
+    to {color: rgb(157, 240, 23);}
+    to {color: rgb(231, 235, 35);}
     to {color: yellow;}
-    to {color: orange;}
-    to {color: red;}
-    to {color: brown;}
+    to {color: rgb(214, 218, 13);}
+    to {color: rgb(123, 255, 0);}
+    to {color: rgb(50, 202, 4);}
 }
 
-ul{
-    color: #8df800;
-    list-style: none;
-}
 
 .sidebar{
     height: 100%;
@@ -73,5 +84,25 @@ ul{
         text-shadow: 0 0 3px #fff, 0 0 5px #ffffff, 0 0 6px #bbff4d, 0 0 7px, #7eff06 0 0 8px
     }
 }
+
+.calendar-size{
+    display: flex;
+    border-radius: 15%;
+    width: 195px;
+    height: 165px;
+    top: 185px;
+    right: 350px;
+    position: absolute;
+    animation-name: calendar;
+    animation-duration: 8s;
+}
+
+@keyframes calendar {
+    from {right: 15px;}
+    to {right: 350px;}
+    
+        
+}
+
 
 
