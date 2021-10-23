@@ -152,6 +152,21 @@ a{
     margin-top: 20px;
 }
 
+.text-below-thinking-man2{
+    font-weight: lighter;
+    font-style: oblique;
+    display: flex;
+    padding-right: 800px;
+    margin-top: -10px;
+}
+
+.text-below-scientis-woman{
+    font-weight: lighter;
+    font-style: oblique;
+    display: flex;
+    padding-right: 350px;
+}
+
 .scientist-woman{
     display: flex;
     position: absolute;
@@ -169,6 +184,8 @@ a{
     width: 250px;
     height: auto;
 }
+
+
 
 
 
