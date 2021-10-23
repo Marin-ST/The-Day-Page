@@ -144,6 +144,32 @@ a{
     padding-left: 550px;
 }
 
+.text-below-thinking-man{
+    font-weight: lighter;
+    font-style: oblique;
+    display: flex;
+    padding-right: 800px;
+    margin-top: 20px;
+}
+
+.scientist-woman{
+    display: flex;
+    position: absolute;
+    right: 550px;
+    top: 665px;
+    width: 250px;
+    height: auto;  
+}   
+
+.scientist-man{
+    display: flex;
+    position: absolute;
+    right: 550px;
+    top: 675px;
+    width: 250px;
+    height: auto;
+}
+
 
 
 
