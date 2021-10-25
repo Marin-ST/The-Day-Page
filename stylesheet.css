@@ -180,10 +180,18 @@ a{
 .scientist-man{
     display: flex;
     position: absolute;
-    right: 550px;
-    top: 675px;
+    right: 1250px;
+    top: 1050px;
     width: 250px;
     height: auto;
+}
+
+.text-next-to-scientist-man{
+    font-weight: lighter;
+    font-style: oblique;
+    display: flex;
+    padding-right: 350px;
+    padding-left: 300px;
 }
 
 
