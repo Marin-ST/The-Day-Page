@@ -18,6 +18,10 @@ ul{
     list-style: none;
 }
 
+a:hover{
+    color: rgb(255, 255, 253);
+    font-size: 20px;
+}
 
 a{
     color: #8df800;
@@ -43,21 +47,21 @@ a{
     font-size: 20px;
     font-style: italic;
     animation-name: Forever;
-    animation-duration: 15s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
     background: none repeat scroll;
     text-shadow: 0 -1px 1px #666666, 0 1px 1px #FFFFFF;
 }
 @keyframes Forever {
     from {color:#8df800;}
-    to {color: rgb(173, 209, 73);}
-    to {color: rgb(158, 241, 23);}
-    to {color: rgb(157, 240, 23);}
-    to {color: rgb(231, 235, 35);}
-    to {color: yellow;}
-    to {color: rgb(214, 218, 13);}
-    to {color: rgb(123, 255, 0);}
-    to {color: rgb(50, 202, 4);}
+    to {color: rgb(255, 251, 0);}
+    to {color: rgb(47, 255, 6);}
+    to {color: rgb(255, 251, 0);}
+    to {color: rgb(47, 255, 6);}
+    to {color: rgb(255, 251, 0);}
+    to {color: rgb(47, 255, 6);}
+    to {color: rgb(255, 251, 0);}
+    to {color: rgb(47, 255, 0);}
 }
 
 
@@ -192,6 +196,7 @@ a{
     display: flex;
     padding-right: 350px;
     padding-left: 300px;
+    margin-top: -15px;
 }
 
 
