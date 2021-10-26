@@ -47,24 +47,22 @@ a{
     margin-bottom: 65px;
     font-size: 20px;
     font-style: italic;
-    animation-name: Forever;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    background: none repeat scroll;
-    text-shadow: 0 -1px 1px #666666, 0 1px 1px #FFFFFF;
-}
-@keyframes Forever {
-    from {color:#8df800;}
-    to {color: rgb(255, 251, 0);}
-    to {color: rgb(47, 255, 6);}
-    to {color: rgb(255, 251, 0);}
-    to {color: rgb(47, 255, 6);}
-    to {color: rgb(255, 251, 0);}
-    to {color: rgb(47, 255, 6);}
-    to {color: rgb(255, 251, 0);}
-    to {color: rgb(47, 255, 0);}
+    background: linear-gradient(to right,#095fab 10%, #25abe8 15%,#ccf89a 20%, #35ca84 25%, #8df800 60%);
+	background-size: 200% auto;
+	background-clip: text;
+	text-emphasis-color: transparent;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: textclip 5s linear infinite;
+    an
+	display: flex;    
 }
 
+@keyframes textclip {
+	to {
+		background-position: 200% center;
+	}
+}
 
 .sidebar{
     height: 100%;
