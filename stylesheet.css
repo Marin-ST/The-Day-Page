@@ -144,7 +144,7 @@ a{
     font-weight: lighter;
     font-style: oblique;
     display: flex;
-    top: 546px;
+    top: 567px;
     position: absolute;
     padding-right: 350px;
     padding-left: 550px;
@@ -177,7 +177,7 @@ a{
     display: flex;
     position: absolute;
     right: 550px;
-    top: 680px;
+    top: 700px;
     width: 250px;
     height: auto;  
 }   
