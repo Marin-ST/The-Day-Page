@@ -2,7 +2,7 @@
 body {
   font-size: 17px;    
   font-family: 'Balsamiq Sans','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  background:#000 url(/Images/Stars.png) repeat top center;
+  background:#000 url(/Images/Stars.PNG) repeat top center;
   z-index: 0;
   opacity: .9;
   animation: move-twink-back 1200s linear infinite;
