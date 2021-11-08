@@ -1,7 +1,6 @@
 body {
     font-size: 17px;    
     font-family: 'Balsamiq Sans','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: oblique;
     background:#000 url(/Images/Stars.PNG) repeat top center;
     z-index: 0;
     opacity: .9;
@@ -13,27 +12,3 @@ body {
     from {background-position:0 0;}
     to {background-position:-10000px 5000px;}
 }
-
-a{
-    text-decoration: none;
-    color: #8df800;
-}
-
-a:hover{
-    color: rgb(202, 202, 199);
-    font-size: 20px;
-}
-
-.links{
-    display: flex;
-    gap: 85px;
-}
-
-.start{
-    margin-right: auto;
-}
-
-.end{
-    margin-left: auto;
-}
-
