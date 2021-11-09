@@ -42,3 +42,29 @@ a:hover{
     margin-top: 35px;
 }
 
+.control{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.truth-and-transperancy{
+    display: inline;
+}
+
+.transparency{
+    display: flex;
+    justify-content: right;
+}
+
+.truth{
+    display: flex;
+    justify-content: left;
+}
+
+.happening{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
