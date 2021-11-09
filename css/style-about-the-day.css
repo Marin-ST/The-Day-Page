@@ -48,10 +48,6 @@ a:hover{
     margin-top: 45px;
 }
 
-.truth-and-transperancy{
-    display: inline;
-}
-
 .transparency{
     display: flex;
     justify-content: right;
@@ -60,6 +56,10 @@ a:hover{
 .truth{
     display: flex;
     justify-content: left;
+}
+
+.truth-and-transperancy{
+    display: flex;
 }
 
 .happening{
