@@ -54,6 +54,10 @@ a:hover{
     filter: blur(0);
 }
 
+.hide-network-image{
+  background-color: #8df800;
+}
+
 .truth-and-transperancy{
     margin-top: 125px;
 }
