@@ -55,7 +55,11 @@ a:hover{
 }
 
 .hide-network-image{
-  background-color: #8df800;
+  position: absolute;  
+  background-color: #8df800;  
+  width: 85px;
+  height: auto;
+  left: 720px;
 }
 
 .truth-and-transperancy{
