@@ -88,20 +88,20 @@ a:hover{
 .glitch:hover{
     color: #8df800;
     text-shadow: none;
-    -webkit-animation-name: none;
+    animation: none;
 }
 
 .glitch span:first-child:hover{
     color: #8df800;
     clip-path: none;
     transform: none;
-    -webkit-animation-name: none;
+    animation: none;
 }
 .glitch span:last-child:hover{
     color: #8df800;
     clip-path: none;
     transform: none;
-    -webkit-animation-name: none;
+    animation: none;
 }
 
 .glitch span{
